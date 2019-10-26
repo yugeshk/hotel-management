@@ -1,14 +1,14 @@
-#Hotel Management Application
+# Hotel Management Application
 
 A hotel management application written in php. To run, you must have `docker`
 and `docker-compose` installed.
 
-##Instructions
+## Instructions
 
 Run `docker-compose up -d`
 Go to `localhost:80`
 
-###Note
+### Note
 
 On non-linux machines (Mac and windows) you will need to update the IP address
 of the mysql docker container in the `www/db.php` file.
